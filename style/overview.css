@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  display: inline-block;
+}
+.nav {
+  background-color: #333;
+  text-align: center;
+}
+.nav a {
+  color: #fff;
+  padding: 20px;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: #e8e9eb;
+  color: #000;
+}
+
+.top-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.top-bar .logo {
+  width: 5%;
+}
+
+.top-bar ul {
+  width: 95%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo img {
+  width: 54px;
+}
+.hero-img {
+  background-image: url("../img/hero.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-container {
+  position: relative;
+}
+.copy-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.copy-container h1 {
+  color: #fff;
+  font-size: 78px;
+  margin: 0;
+}
+section#promo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nature {
+  width: 50%;
+  height: 600px;
+  overflow: hidden;
+}
+p.copy-nature {
+  color: #fff;
+  font-size: 22px;
+}
+section.promo {
+   padding: 10px;
+}
+.nature{
+  border-radius: 50px;
+  position: relative;
+  padding: 20px;
+}
+.nature-img{
+  position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 100%;
+  
+}
+.nature-copy{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+    text-align: center;
+    padding: 0px 40px;
+    font-size: 30px;
+    color: #fff;
+}
+.nature-img:before {
+  position: absolute;
+  content: '';
+  background: rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+section.nature-desc {
+  padding: 0px 200px;
+}
+.nature-dec-copy {
+  padding: 0px 200px;
+  text-align: center;
+}
+.nature-dec-copy h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+.nature-dec-copy h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+.nature-dec-copy p {
+font-size: 24px;
+    font-style: italic;
+}
+.footer {
+  width: 100%;
+    background-color: #9e9999;
+    margin-top: auto;
+    text-align: center;
+}
+.footer li a{
+  padding: 20px;
+  display: block;
+  color: #000;
+}
+.footer li a:hover{
+  background-color: #fff;
+}
+footer{
+  margin-top: auto;
+}
